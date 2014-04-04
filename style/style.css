@@ -1,0 +1,41 @@
+#center{
+  background: #ddd;
+  width: 500px;
+  float: left;
+}
+
+#left{
+  background: #999;
+  width: calc(50% - 250px);
+  float: left;
+}
+
+#right{
+  background: #3f5;
+  width: calc(50% - 250px);
+  float: right;
+}
+
+.player {
+  height: 200px;
+  background: #333;
+  margin-bottom : 3px;
+}
+
+.player-portrait{
+  background: #999;
+  width: 20%;
+  float: left;
+}
+
+.player-buttons{
+  background: #900;
+  width: 20%;
+  float: right;
+}
+
+.player-button{
+  background: #f00;
+  margin: 2px;
+  width: 95%;
+}
